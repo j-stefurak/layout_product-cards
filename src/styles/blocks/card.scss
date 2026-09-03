@@ -60,7 +60,7 @@
     justify-content: space-between;
     width: $card-content-width;
     height: 18px;
-    margin-top: 14px;
+    margin-top: 18px;
 
     &-label {
       font-family: $font-main;
@@ -83,12 +83,13 @@
   }
 
   &__buy-btn {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     width: $card-content-width;
     height: 40px;
-    margin-top: 16px;
+    margin: 20px auto 0;
     background: $color-accent;
     color: $color-white;
     text-decoration: none;
