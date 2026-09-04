@@ -1,9 +1,9 @@
 .stars {
   display: flex;
-  gap: 4px;
+  gap: 7px;
 
   &__star {
-    width: 14px;
+    width: 13px;
     height: 14px;
     background-image: url(../images/star.svg);
     background-size: contain;
@@ -11,7 +11,7 @@
   }
 
   @for $i from 1 through 5 {
-    &--#{$i} &__star:nth-child(-n+#{$i}) {
+    &--#{$i} &__star:nth-child(-n + #{$i}) {
       background-image: url(../images/star-active.svg);
     }
   }

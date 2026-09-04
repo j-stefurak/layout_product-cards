@@ -2,9 +2,11 @@
   width: $card-width;
   height: $card-height;
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 0 16px;
   border: 1px solid $color-border;
   background: $color-white;
+  border-radius: 5px;
+  overflow: hidden;
 
   &__image {
     width: 160px;
@@ -60,7 +62,7 @@
     justify-content: space-between;
     width: $card-content-width;
     height: 18px;
-    margin-top: 18px;
+    margin-top: 22px;
 
     &-label {
       font-family: $font-main;
@@ -89,14 +91,14 @@
     justify-content: center;
     width: $card-content-width;
     height: 40px;
-    margin: 20px auto 0;
+    margin: 18px auto 0;
     background: $color-accent;
     color: $color-white;
     text-decoration: none;
     font-family: $font-main;
     font-weight: 700;
     font-size: 14px;
-    line-height: 40px;
+    line-height: 16px;
     letter-spacing: 0;
     padding: 0;
     text-align: center;
@@ -104,7 +106,10 @@
     border: 1px solid transparent;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    transition:
+      background 0.2s,
+      color 0.2s,
+      border-color 0.2s;
 
     &:hover {
       background: transparent;
