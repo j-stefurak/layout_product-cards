@@ -1,6 +1,6 @@
 .card {
   width: $card-width;
-  height: $card-height;
+  min-height: $card-height;
   box-sizing: border-box;
   padding: 0 16px;
   border: 1px solid $color-border;
@@ -27,8 +27,6 @@
   }
 
   &__code {
-    width: 98px;
-    height: 14px;
     margin-top: 4px;
     font-family: $font-main;
     font-weight: 400;
