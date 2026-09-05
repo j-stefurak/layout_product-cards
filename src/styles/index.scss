@@ -2,12 +2,18 @@
 @import 'blocks/card';
 @import 'blocks/stars';
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html {
+  font-family: $font-main;
+  font-size: 10px;
+  line-height: 14px;
+  color: $color-secondary;
 }
 
 body {
-  font-family: $font-main;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
